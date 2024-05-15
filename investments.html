@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html style = "background-color: #718E9E;">
+    <head>
+        <title>Lightwing Homes and Real Estate Properties Homepage</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- css link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link rel="stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+        <!-- javascript link -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+
+    <style>
+        body {
+            background-color: #718E9E;
+        }
+        .home_title {
+            text-transform: uppercase; 
+            color: #F0EFC8; 
+            font-weight: 700; 
+            font-size: 17px;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .home_title:hover {
+            color: #F0EFC8;
+        }
+        /* container for the text and button on the image */
+        .image_overlay {
+            position: relative;
+            width: 100%;
+        }
+        /* image title */
+        .image_text {
+            /* margin: auto; */
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 30px;
+            font-weight: 600;
+            width: 100%;
+            color: white;
+        }
+        .buttons {
+            width: 50%;
+            height: 60px;
+            text-align: center;
+            outline: none;
+            border: none;
+            align-items: center;
+            color: white;
+            font-weight: 500;
+            background-color: #6a7f97;
+            border-radius: 2px;
+            padding: 5px 10px;
+        }
+        .buttons:hover {
+            background-color: #6a7f97;
+        }
+    </style>
+
+    <body>
+        <!-- navbar -->
+        <nav class = "navbar navbar-expand-lg navbar-light" style = "background-color: #718E9E;">
+            <div class = "container-fluid">
+                <!-- logo -->
+                <a class = "navbar-brand" href = "home.html">
+                    <img src = "lightwing.jfif" width = "55" height = "55" class = "d inline-block align-top rounded-pill">
+                </a>
+
+                <!-- title -->
+                <div class = "home_title navbar-brand ms-auto" style = "text-transform: uppercase;">
+                    Lightwing Homes and Real Estate Properties
+                </div>
+
+                <!-- navbar toggle -->
+                <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navbarTogglerCollapsible" aria-controls = "navbarTogglerCollapsible" aria-expanded = "false" aria-label = "Toggle navigation">
+                    <span class = "navbar-toggler-icon"></span>
+                </button>
+
+                <div class = "collapse navbar-collapse" id = "navbarTogglerCollapsible">
+                    <ul class = "navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class = "nav-item">
+                            <a class = "nav-link text-white" href = "about.html">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link text-white active" href = "investments.html" aria-current = "page">Investments</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link text-white" href = "contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- nav end -->
+
+        <!-- main image with text overlay -->
+        <div class = "container-fluid p-0">
+            <div class = "image_overlay">
+                <img src = "investments_main.jfif" width = "100%" height = "450">
+                <!-- image text -->
+                <div class = "image_text">
+                    CURRENT INVESTMENTS
+                </div>
+            </div>
+        </div>
+
+        <div class = "container text-center text-black mt-5">
+            <!-- cards for the types of homes -->
+
+            <!-- row 1 -->
+            <div class = "row justify-content-center">
+                <!-- crestwood manor -->
+                <div class = "col">
+                    <div class = "card mt-3" style = "width: 18rem;">
+                        <img src = "crestwood.jfif" class = "card-img-top">
+                        <div class = "card-body">
+                            <h5 class = "card-title">Crestwood Manor</h5>
+                            <p class = "card-text">Crestwood Manor, located in Whiting, NJ, offers a vibrant choice in
+                                retirement living, with the goal to empower older adults to find comfort, satisfaction, and new possiblities.
+                            </p>
+                        </div>
+
+                        <!-- button -->
+                        <a href = "https://crestwoodmanoronline.org/">
+                            <button type = "button" class = "buttons btn-primary">Click Here</button>
+                        </a>
+
+                        <div class = "mt-3"></div>
+
+                    </div>
+                </div>
+                
+                <!-- echefuna homes -->
+                <div class = "col">
+                    <div class = "card mt-3" style = "width: 18rem;">
+                        <img src = "echefuna.jfif" class = "card-img-top">
+                        <div class = "card-body">
+                            <h5 class = "card-title">Echefuna Homes</h5>
+                            <p class = "card-text">Make your dream home a reality home.</p>
+                        </div>
+                        <!-- button -->
+                        <a href = "https://zennihome.com/">
+                            <button type = "button" class = "buttons btn-primary">Click Here</button>
+                        </a>
+
+                        <div class = "mt-3"></div>
+
+                    </div>
+                </div>
+
+                <!-- summit view residence -->
+                <div class = "col">
+                    <div class = "card mt-3" style = "width: 18rem;">
+                        <img src = "summit.jfif" class = "card-img-top">
+                        <div class = "card-body">
+                            <h5 class = "card-title">Summit View Residences</h5>
+                            <p class = "card-text">This gem holds 285+ spacious, newly remodeled and furnished 1, 2, and 3 bedroom apartment homes,
+                                which has a host of amenities that makes this community attractive to college students, singles, couples, and families.
+                            </p>
+                        </div>
+
+                        <!-- button -->
+                        <a href = "https://rentsummitview.com/">
+                            <button type = "button" class = "buttons btn-primary">Click Here</button>
+                        </a>
+
+                        <div class = "mt-3"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- row 2 -->
+            <div class = "row justify-content-center mt-5">
+                <!-- harbor breeze villas -->
+                <div class = "col">
+                    <div class = "card mt-3" style = "width: 18rem;">
+                        <img src = "harbor.jfif" class = "card-img-top">
+                        <div class = "card-body">
+                            <h5 class = "card-title">Harbor Breeze Villas</h5>
+                            <p class = "card-text">This community is designed for individuals who are in need of the relaxing wonders
+                                of the ocean breeze.
+                            </p>
+                        </div>
+
+                        <!-- button -->
+                        <a href = "https://www.harborbreezevillas.com/">
+                            <button type = "button" class = "buttons btn-primary">Click Here</button>
+                        </a>
+
+                        <div class = "mt-3"></div>
+
+                    </div>
+                </div>
+                
+                <!-- oasis gardens -->
+                <div class = "col">
+                    <div class = "card mt-3" style = "width: 18rem;">
+                        <img src = "oasis.jfif" class = "card-img-top">
+                        <div class = "card-body">
+                            <h5 class = "card-title">Oasis Gardens</h5>
+                            <p class = "card-text">Live in beautiful homes and engage in the scenery of a peaceful, sensory garden.</p>
+                        </div>
+
+                        <!-- button -->
+                        <a href = "https://accessoasis.net/">
+                            <button type = "button" class = "buttons btn-primary">Click Here</button>
+                        </a>
+
+                        <div class = "mt-3"></div>
+
+                    </div>
+                </div>
+
+                <!-- lightwing villas -->
+                <div class = "col">
+                    <div class = "card mt-3" style = "width: 30rem;">
+                        <img src = "lightwing_home.jfif" class = "card-img-top">
+                        <div class = "card-body">
+                            <h5 class = "card-title">Lightwing Villas</h5>
+                            <p class = "card-text">We focus on what matters most to you. We guarantee that quality, comfort, 
+                                and style will go into every room of your Villa home.</p>
+                        </div>
+
+                        <!-- button -->
+                        <a href = "https://villahomesrgv.com/">
+                            <button type = "button" class = "buttons btn-primary">Click Here</button>
+                        </a>
+
+                        <div class = "mt-3"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <hr>
+
+        <!-- footer -->
+        <footer class = "container" style = "font-size: 15px; font-weight: 500;">
+            <div class = "row align-items-start mt-5 text-white">
+                <div class = "col">
+                    <div>Contact Heritage, Inc. Brokerage</div>
+                    <div>+1 718 111 16#6</div>
+                    <div>invest@heritagehomes.com</div>
+                    <div>13636 NE 4th Ave, suite 4520</div>
+                    <div>Tampa, FL 1239</div>
+
+                    <div class = "mt-2"></div>
+
+                    <!-- social media links -->
+                    <div>
+                        <a href = "https://www.facebook.com/"><i style = "color: black;" class = "bi bi-facebook"></i></a>
+                        <a href = "https://www.instagram.com/"><i style = "color: black;" class = "bi bi-instagram"></i></a>
+                        <a href = "https://twitter.com/"><i style = "color: black;" class = "bi bi-twitter"></i></a>
+                    </div>
+                </div>
+                <div class = "col"></div>
+                <div class = "col">
+                    <div>LEGAL</div>
+                    <div>FAQs</div>
+                    <div>Privacy Policy</div>
+                    <div>Terms & Conditions</div>
+                </div>
+            </div>
+
+            <div class = "mt-5"></div>
+        </footer>
+
+    </body>
+</html>

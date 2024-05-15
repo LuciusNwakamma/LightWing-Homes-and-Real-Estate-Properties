@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html style = "background-color: #718E9E;">
+    <head>
+        <title>Lightwing Homes and Real Estate Properties Homepage</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- css link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link rel="stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+        <!-- javascript link -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+
+    <style>
+        body {
+            background-color: #718E9E;
+        }
+        .home_title {
+            text-transform: uppercase; 
+            color: #F0EFC8; 
+            font-weight: 700; 
+            font-size: 17px;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .home_title:hover {
+            color: #F0EFC8;
+        }
+        /* container for the text and button on the image */
+        .image_overlay {
+            position: relative;
+            width: 100%;
+        }
+        /* image title */
+        .image_text {
+            /* margin: auto; */
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 30px;
+            font-weight: 600;
+            width: 100%;
+            color: white;
+        }
+        .buttons {
+            width: 50%;
+            height: 60px;
+            text-align: center;
+            outline: none;
+            border: none;
+            align-items: center;
+            color: white;
+            font-weight: 500;
+            background-color: #6a7f97;
+            border-radius: 2px;
+            padding: 5px 10px;
+        }
+        .buttons:hover {
+            background-color: #6a7f97;
+        }
+    </style>
+
+    <body>
+        <!-- navbar -->
+        <nav class = "navbar navbar-expand-lg navbar-light" style = "background-color: #718E9E;">
+            <div class = "container-fluid">
+                <!-- logo -->
+                <a class = "navbar-brand" href = "home.html">
+                    <img src = "lightwing.jfif" width = "55" height = "55" class = "d inline-block align-top rounded-pill">
+                </a>
+
+                <!-- title -->
+                <div class = "home_title navbar-brand ms-auto" style = "text-transform: uppercase;">
+                    Lightwing Homes and Real Estate Properties
+                </div>
+
+                <!-- navbar toggle -->
+                <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navbarTogglerCollapsible" aria-controls = "navbarTogglerCollapsible" aria-expanded = "false" aria-label = "Toggle navigation">
+                    <span class = "navbar-toggler-icon"></span>
+                </button>
+
+                <div class = "collapse navbar-collapse" id = "navbarTogglerCollapsible">
+                    <ul class = "navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class = "nav-item">
+                            <a class = "nav-link text-white" href = "about.html">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link text-white" href = "investments.html">Investments</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link text-white active" href = "contact.html" aria-current = "page">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- nav end -->
+
+        <!-- main image with text overlay -->
+        <div class = "container-fluid p-0">
+            <div class = "image_overlay">
+                <img src = "prop.jfif" width = "100%" height = "650">
+                <!-- image text -->
+                <div class = "image_text">
+                    CONTACT US
+                </div>
+            </div>
+        </div>
+
+        <div class = "container-fluid mt-3 p-0 text-white text-center" style = "font-weight: 600; font-size: 25px">
+            IT IS OUR PLEASURE TO HEAR FROM YOU
+        </div>
+
+        <!-- contact form -->
+        <div class = "container text-black mt-5">
+            <div class = "row justify-content-start">
+                <!-- <form> -->
+                <div class = "col-md-6">
+                    <!-- name input -->
+                    <div class = "form-outline mb-4">
+                        <label class = "form-label" for = "firstname" style = "font-weight: 700;">First Name</label>
+                        <input type = "text" id = "firstname" class = "form-control">
+                    </div>
+                </div>
+
+                <div class = "col-md-6">
+                    <div class = "form-outline mb-4">
+                        <label class = "form-label" for = "lastname" style = "font-weight: 700;">Last Name</label>
+                        <input type = "text" id = "lastname" class = "form-control" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "row justify-content-start">
+                <!-- </form> -->
+                <div class = "col-md-6">
+                    <div class = "form-outline mb-4">
+                        <label class = "form-label" for = "phonenumber" style = "font-weight: 700;">Phone Number</label>
+                        <input type = "tel" id = "phonenumber" class = "form-control" required>
+                    </div>
+                </div>
+
+                <div class = "col-md-6">
+                    <div class = "form-outline mb-4">
+                        <label class = "form-label" for = "email" style = "font-weight: 700;">Email</label>
+                        <input type = "email" id = "email" class = "form-control" required>
+                    </div>
+                </div>
+
+                <!-- message -->
+                <div class = "col">
+                    <div class = "form-outline mb-4">
+                        <label class = "form-label" for = "message" style = "font-weight: 700;">Message</label>
+                        <textarea id = "message" class = "form-control" required></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <!-- submit button -->
+            <div class = "col text-center text-black">
+                <div class = "form-outline mb-4">
+                    <button type = "button" class = "btn" style = "font-weight: 700; background-color: white; color: black;">SUBMIT</button>
+                </div>
+            </div>
+        </div>    
+
+        <hr>
+
+        <!-- footer -->
+        <footer class = "container" style = "font-size: 15px; font-weight: 500;">
+            <div class = "row align-items-start mt-5 text-white">
+                <div class = "col">
+                    <div>Contact Heritage, Inc. Brokerage</div>
+                    <div>+1 718 111 1606</div>
+                    <div>invest@heritagehomes.com</div>
+                    <div>13636 NE 4th Ave, suite 4520</div>
+                    <div>Tampa, FL 1239</div>
+
+                    <div class = "mt-2"></div>
+
+                    <!-- social media links -->
+                    <div>
+                        <a href = "https://www.facebook.com/"><i style = "color: black;" class = "bi bi-facebook"></i></a>
+                        <a href = "https://www.instagram.com/"><i style = "color: black;" class = "bi bi-instagram"></i></a>
+                        <a href = "https://twitter.com/"><i style = "color: black;" class = "bi bi-twitter"></i></a>
+                    </div>
+                </div>
+                <div class = "col"></div>
+                <div class = "col">
+                    <div>LEGAL</div>
+                    <div>FAQs</div>
+                    <div>Privacy Policy</div>
+                    <div>Terms & Conditions</div>
+                </div>
+            </div>
+
+            <div class = "mt-5"></div>
+        </footer>
+
+    </body>
+</html>
